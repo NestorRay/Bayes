@@ -7,14 +7,10 @@ def post_event_probability (a,b):
 def conditional_probability (condition,probability):
     p = post_event/condition
     return p
-#post_event_probability and conditional_probability module test;
 
-a = 1/2
-b = 1/3
-pa1 = 1/3
-post_event = post_event_probability(a, b)
-result = conditional_probability(post_event, pa1)
-print(result)
-
-
+#init base probability
+all_target = len(target)
+a1 = 1/all_target
+a2 = 1/all_target
+a3 = 1/all_target
 
